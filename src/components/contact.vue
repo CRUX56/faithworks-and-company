@@ -27,8 +27,7 @@ export default {
           <div class="text-center mb-5">
             <h3 class="title mb-3">Contact Us</h3>
             <p class="text-muted font-size-15">
-              Et harum quidem rerum facilis est et expedita distinctio nam libero tempore
-              cum soluta nobis eligendi cumque.
+              Let <em>Faith Works and Company, LLC</em> assist you in your faith journey. Please fill out the information below and we will respond within forty-eight hours. Thank you for contacting us!
             </p>
           </div>
         </div>
@@ -81,23 +80,23 @@ export default {
           <div class="contact-detail text-muted ml-lg-5">
             <p class>
               <mail-icon class="icon-xs icon mr-1"></mail-icon>:
-              <span>support@website.com</span>
+                <span><a href="mailto:faithworksandcompany@gmail.com" target="_blank">faithworksandcompany@gmail.com</a></span>
             </p>
             <p class>
               <LinkIcon class="icon-xs icon mr-1"></LinkIcon>:
-              <span>www.website.com</span>
+              <span>www.faithworksandcompany.com</span>
             </p>
             <p class>
               <PhoneCallIcon class="icon-xs icon mr-1"></PhoneCallIcon>:
-              <span>(+001) 123 456 7890</span>
+              <span>Business cell: <a href="tel:704-299-9746">(704) 299 9746</a></span>
             </p>
-            <p class>
+            <!--<p class>
               <ClockIcon class="icon-xs icon mr-1"></ClockIcon>:
               <span>9:00 AM - 6:00 PM</span>
-            </p>
+            </p>-->
             <p class>
               <MapPinIcon class="icon-xs icon mr-1"></MapPinIcon>:
-              <span>1644 Deer Ridge Drive Rochelle Park, NJ 07662</span>
+              <span>10522 Broken Branch Road, Charlotte, NC 28213</span>
             </p>
           </div>
         </div>

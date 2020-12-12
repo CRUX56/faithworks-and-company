@@ -42,7 +42,7 @@ export default {
               </h1>
               <div class="w-75 mb-5 mb-lg-0">
                 <p class="text-muted mb-5 pb-5 font-size-17">
-                  It’s time to grow your faith. When you plant faith in God, everything else will grow. Maya Angelou once said, “Let Faith be the bridge you build to overcome evil and welcome good.” How strong is your faith? Do you have faith the size of a mustard seed? When the trials of life come, when the strong winds blow, are you strong enough to handle the aftermath and tribulations they bring? <!--Do you believe your faith is strong enough to withstand the wilds of the enemy? In order to be deeply rooted in faith, you must be willing to be like a tree planted by the rivers of water with deep planted roots that will stand tall and withstand anything that comes your way. We hope you find these resources useful as you strengthen your faith-walk relationship with God.-->
+                  It’s time to grow your faith. When you plant faith in God, everything else will grow. Maya Angelou once said, “Let Faith be the bridge you build to overcome evil and welcome good.” How strong is your faith? Do you have faith the size of a mustard seed? When the trials of life come, when the strong winds blow, are you strong enough to handle the aftermath and tribulations they bring? Do you believe your faith is strong enough to withstand the wilds of the enemy?
                 </p>
                 <p class>
                   "But without faith it is impossible to please Him; for he that cometh to God must believe that He is, and that He is a rewarder of them that diligently seek Him." - ~Hebrews 11:6 (KJV)~

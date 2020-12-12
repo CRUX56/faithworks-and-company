@@ -3,10 +3,13 @@ import {
   LayoutIcon,
   LifeBuoyIcon,
   ServerIcon,
-  RssIcon
+  RssIcon,
+  EyeIcon,
+  CrosshairIcon,
+  MessageCircleIcon
 } from "vue-feather-icons";
 export default {
-  components: { LayoutIcon, LifeBuoyIcon, ServerIcon, RssIcon }
+  components: { LayoutIcon, LifeBuoyIcon, ServerIcon, RssIcon, EyeIcon, CrosshairIcon, MessageCircleIcon }
 };
 </script>
 
@@ -22,9 +25,9 @@ export default {
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div class="text-center mb-5">
-              <h3 class="title mb-3">Lorem ipsum dolor sit amet, consectetuer</h3>
+              <h3 class="title mb-3">About Faith Works and Company</h3>
               <p class="text-muted font-size-15">
-                Lorem ipsum dolor sit amet, consectetuer nemo enim. Phasellus eu felis sapien. Suspendisse ut iaculis urna, vitae pharetra ex.
+                <em>Faith Works and Company</em> is a faith-based, vision and mission driven organization that proclaims the ill of God through services that teaches the importance of lifestyles based on Christ-centeredness for all.
               </p>
             </div>
           </div>
@@ -45,14 +48,16 @@ export default {
               Lorem <b>ipsum</b> & <b>dolor</b> sit amet, <b>consectetuer</b>
             </h3>
             <p class="text-muted font-size-15 mb-4">
-              Temporibus autem quibusdam et aut officiis debitis aut rerum a
-              necessitatibus saepe eveniet ut et voluptates repudiandae sint molestiae non recusandae itaque.
+              Not only does faith work; God works, love works, peace works, joy works, salvation works, prayer works, encouragement works, ministry works, and I can go on and on. We are here to assist God's people with their ministry needs.
             </p>
             <p class="text-muted mb-2">
-              <layout-icon class="icon-xs mr-1"></layout-icon>Donec pede justo fringilla vel nec.
+              <eye-icon class="icon-xs mr-1"></eye-icon><strong>Vision:</strong> To assist all of mankind in their perspective and vantage-point faith journey through ministry.
             </p>
             <p class="text-muted">
-              <life-buoy-icon class="icon-xs mr-1"></life-buoy-icon>Cras ultricies mi eu turpis hendrerit fringilla.
+              <crosshair-icon class="icon-xs mr-1"></crosshair-icon><strong>Mission:</strong> To keep the faith, my promises and alliances of duty, and services, as I honor God, my Creator, and God's people.
+            </p>
+            <p class="text-muted">
+              <message-circle-icon class="icon-xs mr-1"></message-circle-icon><strong>Motto:</strong> Plant faith in God, everything else will grow.
             </p>
             <div class="mt-5">
               <a href="javascript: void(0);" class="btn btn-primary mr-2">Contact Us</a>

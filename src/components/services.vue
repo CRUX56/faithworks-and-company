@@ -25,9 +25,9 @@
                 </span>
               </div>
             </div>
-            <h3 class>Services</h3>
+            <h3 class>Specialty Services</h3>
             <p class="text-muted mb-4">
-              Nam libero tempore cum soluta as nobis est eligendi optio cumque nihile impedite quo minus id quod maxime.
+              In order to be deeply rooted in faith, you must be willing to be like a tree planted by the rivers of water with deep planted roots that will stand tall and withstand anything that comes your way. We hope you find these resources useful as you strengthen your faith-walk relationship with God.
             </p>
             <a href="javascript: void(0);" class="btn btn-outline-primary">Learn More</a>
           </div>
@@ -39,18 +39,18 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-collage"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service One</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Preacher / Teacher</h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                  
                 </p>
               </div>
               <div class="wc-box rounded text-center wc-box-primary p-4">
                 <div class="wc-box-icon">
                   <i class="mdi mdi-trending-up"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service Two</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Christian Ed. Trainings</h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                  Workshops / Conference Presenter
                 </p>
               </div>
             </div>
@@ -59,20 +59,29 @@
                 <div class="wc-box-icon">
                   <i class="mdi mdi-security"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service Three</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Christian Ed. Counselor</h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                  For teens.
                 </p>
               </div>
               <div class="wc-box rounded text-center wc-box-primary p-4">
                 <div class="wc-box-icon">
                   <i class="mdi mdi-database-lock"></i>
                 </div>
-                <h5 class="font-weight-bold mb-2 wc-title mt-4">Service Four</h5>
+                <h5 class="font-weight-bold mb-2 wc-title mt-4">Outreach</h5>
                 <p class="text-muted mb-0 font-size-15 wc-subtitle">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                 Singles / Marriage Counseling, Christian Ed. Consulting, Mentorship-youth, tweens.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div><!---->
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-center mb-5" id="services-scripture">
+            <div class="text-muted font-size-15">
+              <em>"So, then faith cometh by hearing, and hearing by the Word of God."</em><br/>~Romans 10:17 (KJV)~
             </div>
           </div>
         </div>

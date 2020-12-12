@@ -25,8 +25,7 @@ export default {
             <div class="mb-5">
               <img src="@/assets/images/logo-light.png" alt class height="24" />
               <p class="text-white-50 my-4 font-size-15">
-                Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum
-                ante ipsum primis in faucibus ultrices posuere cubilia.
+                <em>"Faith in action is love, and love in action is service. By transforming that faith into living acts of love, we put ourselves in contact with God Himself, with Jesus our Lord." - Mother Teresa</em>
               </p>
               <ul class="list-inline footer-social-icon-content">
                 <li class="list-inline-item mr-4">
