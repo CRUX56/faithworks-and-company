@@ -10,7 +10,7 @@ export default {
     FacebookIcon,
     TwitterIcon,
     InstagramIcon,
-    LinkedinIcon
+    LinkedinIcon,
   }
 };
 </script>

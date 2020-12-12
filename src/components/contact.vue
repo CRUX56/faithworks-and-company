@@ -7,6 +7,7 @@ import {
   ClockIcon,
   MapPinIcon
 } from "vue-feather-icons";
+import VueFormulate from '@braid/vue-formulate';
 export default {
   components: {
     SendIcon,
@@ -14,7 +15,8 @@ export default {
     LinkIcon,
     PhoneCallIcon,
     ClockIcon,
-    MapPinIcon
+    MapPinIcon,
+    VueFormulate
   }
 };
 </script>
@@ -41,7 +43,8 @@ export default {
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="name">Name*</label>
-                    <input id="name" type="text" class="form-control" placeholder="Your name..." />
+                    <!--<input id="name" type="text" class="form-control" placeholder="Your name..." />-->
+                    <FormulateInput class="form-control" type="text" />
                   </div>
                 </div>
                 <div class="col-md-6">

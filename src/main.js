@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import VueFormulate from '@braid/vue-formulate'
 
 import { BootstrapVue } from 'bootstrap-vue'
 import VueYoutube from 'vue-youtube'
@@ -24,6 +25,7 @@ Vue.use(VueScrollTo)
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 Vue.use(VueSlider)
+Vue.use(VueFormulate)
 
 new Vue({
   router,
