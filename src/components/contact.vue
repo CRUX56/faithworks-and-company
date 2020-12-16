@@ -7,8 +7,16 @@ import {
   ClockIcon,
   MapPinIcon
 } from "vue-feather-icons";
-import VueFormulate from '@braid/vue-formulate';
+import axios from "axios";
 export default {
+  name: "FooterContact",
+  data(){
+    return {
+      name: '',
+      email: '',
+      comments: ''
+    }
+  },
   components: {
     SendIcon,
     MailIcon,
@@ -16,7 +24,32 @@ export default {
     PhoneCallIcon,
     ClockIcon,
     MapPinIcon,
-    VueFormulate
+  },
+  methods : {
+    submitForm() {
+      console.log("contact form clicked");
+      axios.post('/api/contacts', {
+        name: this.name,
+        email: this.email,
+        comments: this.comments
+      }).then((response) => {
+        console.log(response);
+      }).catch((error) => {
+        console.log(error);
+      })  
+      /*axios({
+        method: "post",
+        url: "/",
+        data: data,
+      })
+        .then((res) => {
+          //Perform Success Action
+        }).catch((error) => {
+          // error.response.status Check status code
+        }).finally(() => {  
+          //Peform action in always
+        });*/
+    }
   }
 };
 </script>
@@ -38,19 +71,18 @@ export default {
         <div class="col-lg-7">
           <div class="custom-form mb-5 mb-lg-0">
             <div id="message"></div>
-            <form name="contact-form" id="contact-form">
+            <form @submit.prevent="submitForm" name="contact-form" id="contactForm">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="name">Name*</label>
-                    <!--<input id="name" type="text" class="form-control" placeholder="Your name..." />-->
-                    <FormulateInput class="form-control" type="text" />
+                    <input id="name" v-model="name" type="text" class="form-control" placeholder="Your name..." />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="email">Email Address*</label>
-                    <input id="email" type="email" class="form-control" placeholder="Your email..." />
+                    <input id="email" v-model="email" type="email" class="form-control" placeholder="Your email..." />
                   </div>
                 </div>
               </div>
@@ -59,6 +91,7 @@ export default {
                   <div class="form-group">
                     <label for="comments">Message*</label>
                     <textarea
+                      v-model="comments"
                       id="comments"
                       rows="4"
                       class="form-control"
@@ -69,7 +102,7 @@ export default {
               </div>
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-primary">
+                  <button type="submit" id="submitForm" class="btn btn-primary">
                     Send Message
                     <send-icon class="icon-size-15 ml-2 icon"></send-icon>
                   </button>
