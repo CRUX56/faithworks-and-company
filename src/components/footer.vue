@@ -23,7 +23,7 @@ export default {
         <div class="row">
           <div class="col-lg-4">
             <div class="mb-5">
-              <img src="@/assets/images/logo-light.png" alt class height="24" />
+              <img src="@/assets/images/logo-transparent-white.png" alt class height="85" />
               <p class="text-white-50 my-4 font-size-15">
                 <em>"Faith in action is love, and love in action is service. By transforming that faith into living acts of love, we put ourselves in contact with God Himself, with Jesus our Lord." - Mother Teresa</em>
               </p>

@@ -1,0 +1,32 @@
+#tns1-ow{
+    .tns-controls{
+        button:first-of-type{
+            float: left;
+            margin-top: 112px;
+            margin-right: 15px;
+        }
+        button:last-of-type{
+            float: right;
+            margin-top: 112px;
+            margin-left: 15px;
+        }
+    }
+    .tns-nav{
+        position: relative;
+        text-align: center;
+    }
+    #tns1-mw{
+        .tns-item{
+            text-align: center;
+            font-family: $font-primary;
+            color: $muted;
+        }
+        button{
+            border-radius: 50%;
+            background: none no-repeat $secondary;
+        }
+        .tns-nav-active{
+            background: none no-repeat $primary;
+        }
+    }
+}

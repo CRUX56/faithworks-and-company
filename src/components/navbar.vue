@@ -58,8 +58,8 @@ export default {
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand logo" href="/">
-        <img src="@/assets/images/logo-dark.png" alt class="logo-dark" height="24" />
-        <img src="@/assets/images/logo-light.png" alt class="logo-light" height="24" />
+        <img src="@/assets/images/logo-transparent.png" alt class="logo-dark" height="85" />
+        <!--<img src="@/assets/images/logo-light.png" alt class="logo-light" height="24" />-->
       </a>
       <button
         class="navbar-toggler"
