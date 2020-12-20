@@ -29,7 +29,7 @@
             <p class="text-muted mb-4">
               In order to be deeply rooted in faith, you must be willing to be like a tree planted by the rivers of water with deep planted roots that will stand tall and withstand anything that comes your way. We hope you find these resources useful as you strengthen your faith-walk relationship with God.
             </p>
-            <a href="javascript: void(0);" class="btn btn-outline-primary">Learn More</a>
+            <a href="javascript: void(0);" v-scroll-to="{ el: '#contact' }" class="btn btn-outline-primary">Learn More</a>
           </div>
         </div>
         <div class="col-lg-8">
@@ -80,6 +80,9 @@
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="text-center mb-5" id="services-scripture">
+            <p class="text-muted mb-4">
+              These services are respectfully, confidentially, Holy Spirit led, and tailored for individuals or group settings while emphasizing strategic and prominent approaches to the Word of God. They are spiritually crafted and taught with insightfulness of Scriptural application, to accomplish God’s purpose. 
+            </p>
             <div class="text-muted font-size-15">
               <em>"So, then faith cometh by hearing, and hearing by the Word of God."</em><br/>~Romans 10:17 (KJV)~
             </div>

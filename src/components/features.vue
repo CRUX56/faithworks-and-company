@@ -60,7 +60,7 @@ export default {
               <message-circle-icon class="icon-xs mr-1"></message-circle-icon><strong>Motto:</strong> Plant faith in God, everything else will grow.
             </p>
             <div class="mt-5">
-              <a href="javascript: void(0);" class="btn btn-primary mr-2">Contact Us</a>
+              <a href="javascript: void(0);" v-scroll-to="{ el: '#contact' }" class="btn btn-primary mr-2">Contact Us</a>
               <!--<a href="javascript: void(0);" class="btn btn-soft-primary">Buy Now</a>-->
             </div>
           </div>

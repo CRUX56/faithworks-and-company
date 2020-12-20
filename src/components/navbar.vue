@@ -75,17 +75,17 @@ export default {
             <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="{ el: '#features', offset: -2}" class="nav-link">
+            <a href="javascript: void(0);" v-scroll-to="{ el: '#about', offset: -2}" class="nav-link">
               About the CEO
             </a>
           </li>
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="{ el:'#pricing', offset: -2}" class="nav-link">
+            <a href="javascript: void(0);" v-scroll-to="{ el:'#features', offset: -2}" class="nav-link">
               Company
             </a>
           </li>
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="{ el:'#blog', offset: -1}" class="nav-link">
+            <a href="javascript: void(0);" v-scroll-to="{ el:'#testimonials', offset: -1}" class="nav-link">
               Testimonials
             </a>
           </li>

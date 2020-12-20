@@ -35,7 +35,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center mb-5">
-                        <a href="javascript: void(0);" class="btn btn-primary mr-2">Contact Us</a>
+                        <a href="javascript: void(0);" v-scroll-to="{ el: '#contact' }" class="btn btn-primary mr-2">Contact Us</a>
                     </div>
                 </div>
             </div>

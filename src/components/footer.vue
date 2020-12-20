@@ -78,19 +78,19 @@ export default {
                 <h6 class="text-white text-uppercase mb-3">About Us</h6>
                 <ul class="list-unstyled footer-sub-menu">
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Home</a>
+                    <a href="javascript: void(0);" v-scroll-to="'#home'" class="footer-link">Home</a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">About the CEO</a>
+                    <a href="javascript: void(0);" v-scroll-to="{ el: '#about' }" class="footer-link">About the CEO</a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Company</a>
+                    <a href="javascript: void(0);" v-scroll-to="{ el: '#features' }" class="footer-link">Company</a>
                   </li>
                   <li>
-                    <a href="javascript: void(0);" class="footer-link">Testimonials</a>
+                    <a href="javascript: void(0);" v-scroll-to="{ el: '#testimonials' }" class="footer-link">Testimonials</a>
                   </li>
                   <li>
-                    <a href="javascript: void(0)" class="footer-link">Contact Us</a>
+                    <a href="javascript: void(0)" v-scroll-to="{ el: '#contact' }" class="footer-link">Contact Us</a>
                   </li>
                 </ul>
               </div>
