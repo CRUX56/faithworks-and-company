@@ -85,6 +85,11 @@ export default {
             </a>
           </li>
           <li class="nav-item">
+            <a href="javascript: void(0);" v-scroll-to="{ el: '#services', offset: -2}" class="nav-link">
+              Specialty Services
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#testimonials', offset: -1}" class="nav-link">
               Testimonials
             </a>

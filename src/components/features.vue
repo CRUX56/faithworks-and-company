@@ -27,7 +27,7 @@ export default {
             <div class="text-center mb-5">
               <h3 class="title mb-3">About Faith Works and Company</h3>
               <p class="text-muted font-size-15">
-                <em>Faith Works and Company</em> is a faith-based, vision and mission driven organization that proclaims the ill of God through services that teaches the importance of lifestyles based on Christ-centeredness for all.
+                <em>Faith Works and Company</em> is a faith-based, vision and mission driven organization that proclaims the will of God through services that teaches the importance of lifestyles based on Christ-centeredness for all.
               </p>
             </div>
           </div>

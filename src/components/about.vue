@@ -9,7 +9,7 @@
                             About CEO:
                         </h3>
                         <p class="text-muted font-size-15">
-                            "Now faith is the substance of things hoped for, the evidence of things not seen.” <br/>- ~Hebrews 11:1(KJV)~
+                            <em>"Now faith is the substance of things hoped for, the evidence of things not seen.”</em> <br/>~Hebrews 11:1 (KJV)~
                         </p>
                     </div>
                 </div>

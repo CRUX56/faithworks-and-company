@@ -87,6 +87,9 @@ export default {
                     <a href="javascript: void(0);" v-scroll-to="{ el: '#features' }" class="footer-link">Company</a>
                   </li>
                   <li>
+                    <a href="javascript: void(0);" v-scroll-to="{ el: '#services' }" class="footer-link">Specialty Services</a>
+                  </li>
+                  <li>
                     <a href="javascript: void(0);" v-scroll-to="{ el: '#testimonials' }" class="footer-link">Testimonials</a>
                   </li>
                   <li>

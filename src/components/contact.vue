@@ -36,19 +36,7 @@ export default {
         console.log(response);
       }).catch((error) => {
         console.log(error);
-      })  
-      /*axios({
-        method: "post",
-        url: "/",
-        data: data,
-      })
-        .then((res) => {
-          //Perform Success Action
-        }).catch((error) => {
-          // error.response.status Check status code
-        }).finally(() => {  
-          //Peform action in always
-        });*/
+      });  
     }
   }
 };
