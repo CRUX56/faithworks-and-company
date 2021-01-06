@@ -37,7 +37,12 @@ const routes = [
     path: '/index-6',
     name: 'Index-6',
     component: () => import('../views/index6.vue')
-  }
+  },
+  /*{
+    path: '/mailer',
+    name: 'mailer',
+    component: () => import('../mailer.js')
+  }*/
 ]
 
 const router = new VueRouter({

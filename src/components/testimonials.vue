@@ -30,7 +30,7 @@
 </script>
 <template>
     <!-- Testimonials start -->
-    <section class="section bg-light" id="testimonials">
+    <section class="section bg-light feather-bg-img" :style="{'background-image': 'url(' + require('@/assets/images/so-white.png') + ')'}" id="testimonials">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">

@@ -31,4 +31,10 @@
 }
 .footer-alt {
     background: darken($dark, 11%);
+    a{
+        color: $primary;
+        &:hover{
+            color: $success;
+        }
+    }
 }

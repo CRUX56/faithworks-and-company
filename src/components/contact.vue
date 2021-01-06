@@ -28,7 +28,7 @@ export default {
   methods : {
     submitForm() {
       console.log("contact form clicked");
-      axios.post('/api/contacts', {
+      axios.post('mailer', {
         name: this.name,
         email: this.email,
         comments: this.comments
@@ -37,7 +37,7 @@ export default {
       }).catch((error) => {
         console.log(error);
       });  
-    }
+    },
   }
 };
 </script>
@@ -59,18 +59,18 @@ export default {
         <div class="col-lg-7">
           <div class="custom-form mb-5 mb-lg-0">
             <div id="message"></div>
-            <form @submit.prevent="submitForm" name="contact-form" id="contactForm">
+            <form action="https://formspree.io/f/mdopykqv" method="POST" name="contact-form" id="contactForm">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="name">Name*</label>
-                    <input id="name" v-model="name" type="text" class="form-control" placeholder="Your name..." />
+                    <input id="name" v-model="name" name="Name" type="text" class="form-control" placeholder="Your name..." />
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="email">Email Address*</label>
-                    <input id="email" v-model="email" type="email" class="form-control" placeholder="Your email..." />
+                    <input id="email" v-model="email" name="Email" type="email" class="form-control" placeholder="Your email..." />
                   </div>
                 </div>
               </div>
@@ -81,6 +81,7 @@ export default {
                     <textarea
                       v-model="comments"
                       id="comments"
+                      name="Comments"
                       rows="4"
                       class="form-control"
                       placeholder="Your message..."

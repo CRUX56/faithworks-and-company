@@ -15,8 +15,8 @@
     padding: 130px 0 110px;
     background: rgba($primary, 0.025);
     background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: inherit;
+    background-repeat: repeat;
     width: 100%;
     .hero-1-title {
         font-size: 52px;

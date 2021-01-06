@@ -26,6 +26,7 @@ export default {
     Footer
   },
   methods : {
+    /*
     emailAddressForm() {
       console.log("Single email form clicked");
       axios.post('/api/contacts', {
@@ -35,7 +36,7 @@ export default {
       }).catch((error) => {
         console.log(error);
       });
-    }
+    }*/
   }
 };
 // Removed Pricing, Blog
@@ -48,7 +49,7 @@ export default {
       <!-- Hero Start -->
       <section
         class="hero-1-bg"
-        :style="{'background-image': 'url(' + require('@/assets/images/hero-1-bg-img.png') + ')'}"
+        :style="{'background-image': 'url(' + require('@/assets/images/so-white.png') + ')'}"
         id="home"
       >
         <div class="container">
@@ -68,8 +69,8 @@ export default {
                   "But without faith it is impossible to please Him; for he that cometh to God must believe that He is, and that He is a rewarder of them that diligently seek Him." - ~Hebrews 11:6 (KJV)~
                 </p>
                 <div class="subscribe-form">
-                  <form @submit.prevent="emailAddressForm" name="email-address-form" id="email-address-form">
-                    <input type="text" v-model="SingleEmail" placeholder="Email address" />
+                  <form action="https://formspree.io/f/mrgorbno" method="POST" name="email-address-form" id="email-address-form">
+                    <input type="text" v-model="SingleEmail" name="Email Address" placeholder="Email address" />
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </form>
                 </div>

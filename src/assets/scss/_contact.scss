@@ -47,3 +47,12 @@
 .contact-loader {
     display: none;
 }
+
+.contact-detail{
+    a {
+        color: $primary;
+    }
+    a:hover{
+        color: $warning;
+    }
+}

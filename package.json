@@ -11,6 +11,8 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.13.1",
     "core-js": "^3.6.4",
+    "dns": "^0.2.2",
+    "nodemailer": "^6.4.17",
     "vue": "^2.6.11",
     "vue-feather-icons": "^5.0.0",
     "vue-router": "^3.1.6",

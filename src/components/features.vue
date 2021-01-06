@@ -18,7 +18,7 @@ export default {
     <!-- Features Start -->
     <section
       class="section bg-light feather-bg-img"
-      :style="{'background-image': 'url(' + require('@/assets/images/features-bg-img.png') + ')'}"
+      :style="{'background-image': 'url(' + require('@/assets/images/so-white.png') + ')'}"
       id="features"
     >
       <div class="container">
