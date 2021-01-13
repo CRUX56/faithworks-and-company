@@ -41,12 +41,12 @@ export default {
           </div>
 
           <div class="col-lg-5 offset-lg-1">
-            <p class="font-weight-medium text-uppercase mb-2">
+            <!--<p class="font-weight-medium text-uppercase mb-2">
               <i class="mdi mdi-chart-bubble h2 text-primary mr-1 align-middle"></i> Quisque accumsan nisi nec magna
             </p>
             <h3 class="font-weight-semibold line-height-1_4 mb-4">
               Lorem <b>ipsum</b> & <b>dolor</b> sit amet, <b>consectetuer</b>
-            </h3>
+            </h3>-->
             <p class="text-muted font-size-15 mb-4">
               Not only does faith work; God works, love works, peace works, joy works, salvation works, prayer works, encouragement works, ministry works, and I can go on and on. We are here to assist God's people with their ministry needs.
             </p>

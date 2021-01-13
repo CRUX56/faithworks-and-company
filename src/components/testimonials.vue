@@ -38,9 +38,10 @@
                         <h3 class="title mb-3">
                             Testimonials
                         </h3>
+                        <!--
                         <p class="text-muted font-size-15">
                             Lorem ipsum dolor sit amet, consectetuer nemo enim. Vestibulum molestie in odio rhoncus molestie.
-                        </p>
+                        </p>-->
                     </div>
                 </div>
             </div>
