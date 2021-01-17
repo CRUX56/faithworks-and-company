@@ -113,7 +113,7 @@ export default {
             </p>
             <p class>
               <PhoneCallIcon class="icon-xs icon mr-1"></PhoneCallIcon>:
-              <span>Business cell: <a href="tel:704-299-9746">(704) 299 9746</a></span>
+              <span>Business cell: <a href="tel:704-299-9746">(704).299.9746</a></span>
             </p>
             <!--<p class>
               <ClockIcon class="icon-xs icon mr-1"></ClockIcon>:

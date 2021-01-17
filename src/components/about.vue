@@ -8,7 +8,7 @@
                         <h3 class="title mb-3">
                             About CEO:
                         </h3>
-                        <p class="text-muted font-size-15">
+                        <p class="font-size-15">
                             <em>"Now faith is the substance of things hoped for, the evidence of things not seen.”</em> <br/>~Hebrews 11:1 (KJV)~
                         </p>
                     </div>
@@ -18,7 +18,7 @@
                 <div class="col-lg-9">
                     <div class="text-center mb-5">
                         <p class="content text-muted">
-                            Elder Dr. Annie Wright-Bell is affectionately known as ‘Ann’ and is the President and CEO of Faith Works and Company, LLC, located in Charlotte, North Carolina. As a preacher, teacher, educator, praise and worship leader, counselor, motivational speaker, author, and mother of one adult son, Ann has vowed with dedication to execute excellence in serving others through her God-given gifts and talents as she ensures integrity through being a servant leader as Christ was a Servant Lord.
+                            Elder Dr. Annie Wright-Bell is affectionately known as ‘Ann’ and is the President and CEO of Faith Works and Company, LLC, located in Charlotte, North Carolina. As a prayer warrior, preacher, teacher, educator, praise and worship leader, counselor, motivational speaker, author, and mother of one adult son, Ann has vowed with dedication to execute excellence in serving others through her God-given gifts and talents as she ensures integrity through being a servant leader as Christ was a Servant Lord.
                         </p>
                         <p class="content text-muted">
                             Ann can recall growing up in Camden, South Carolina, loving and compassionately helping others to become better at believing in themselves. As she grew up and matriculated to Johnson C. Smith University, in Charlotte, North Carolina, she found herself still encouraging, enlightening, and empowering others to make the right choices in life. While sharing the Word of God through preaching and teaching and proclaiming the Gospel of the ‘Good News,’ she now finds herself Biblically leading God’s people throughout the world. Her goal is to reach the masses one sermon at a time locally, nationally, globally, and internationally as she encourages others to stretch their time capsule capabilities while solving and dissolving complex related challenges. She also systematically without selflessness, witnesses and shares the love of God’s unmerited favor through facilitating workshops, presenting at conferences, along with other faith-based events, trainings and seminars.

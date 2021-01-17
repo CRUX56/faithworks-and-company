@@ -80,7 +80,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="text-center mb-5" id="services-scripture">
-            <div class="text-muted col-lg-12 mt-5 font-size-15">
+            <div class="col-lg-12 mt-5 font-size-15">
               <em>"So, then faith cometh by hearing, and hearing by the Word of God."</em><br/>~Romans 10:17 (KJV)~
             </div>
           </div>

@@ -55,7 +55,7 @@ export default {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
-              <h1 class="hero-1-title text-dark font-weight-bold text-shadow mb-4">
+              <h1 class="hero-1-title text-green-mid font-weight-bold text-shadow mb-4">
                 Greetings in the name of our Lord and Saviour, Jesus Christ.
               </h1>
               <div class="w-75 mb-5 mb-lg-0">
@@ -66,7 +66,7 @@ export default {
                   In order to be deeply rooted in faith, you must be willing to be like a tree planted by the rivers of water with deep planted roots that will stand tall and withstand anything that comes your way. We hope you find these resources useful as you strengthen your faith-walk relationship with God.
                 </p>
                 <p class="mb-3">
-                  "But without faith it is impossible to please Him; for he that cometh to God must believe that He is, and that He is a rewarder of them that diligently seek Him." - ~Hebrews 11:6 (KJV)~
+                  <em>"But without faith it is impossible to please Him; for he that cometh to God must believe that He is, and that He is a rewarder of them that diligently seek Him."</em> ~Hebrews 11:6 (KJV)~
                 </p>
                 <div class="subscribe-form">
                   <form action="https://formspree.io/f/mrgorbno" method="POST" name="email-address-form" id="email-address-form">
