@@ -78,7 +78,7 @@ export default {
             </div>
             <div class="col-lg-6 col-md-10">
               <div class="mt-5 mt-lg-0">
-                <img src="@/assets/images/hero-1-img.png" alt class="img-fluid d-block mx-auto" />
+                <img src="@/assets/images/header-profile-shot.jpg" alt class="img-fluid d-block mx-auto" />
               </div>
             </div>
           </div>

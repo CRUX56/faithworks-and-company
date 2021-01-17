@@ -29,25 +29,27 @@ export default {
               </p>
               <ul class="list-inline footer-social-icon-content">
                 <li class="list-inline-item mr-4">
-                  <a href="javascript: void(0);" class="footer-social-icon">
+                  <a href="https://www.facebook.com/Faith-Works-and-Company-LLC-102678614978968/" target="_blank" class="footer-social-icon">
                     <facebook-icon></facebook-icon>
                   </a>
                 </li>
+                <!--
                 <li class="list-inline-item mr-4">
                   <a href="javascript: void(0);" class="footer-social-icon">
                     <twitter-icon></twitter-icon>
                   </a>
-                </li>
+                </li>-->
                 <li class="list-inline-item mr-4">
-                  <a href="javascript: void(0);" class="footer-social-icon">
+                  <a href="https://www.instagram.com/awbitsme/" target="_blank" class="footer-social-icon">
                     <instagram-icon></instagram-icon>
                   </a>
                 </li>
+                <!--
                 <li class="list-inline-item">
                   <a href="javascript: void(0);" class="footer-social-icon">
                     <linkedin-icon></linkedin-icon>
                   </a>
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>

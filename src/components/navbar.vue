@@ -102,7 +102,7 @@ export default {
         </ul>
         <ul class="navbar-nav navbar-center">
           <li class="nav-item">
-            <a href="javascript: void(0);" class="nav-link" v-b-modal.login-modal>Book Your Event Today!</a>
+            <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl?pli=1" target="_blank" class="nav-link"><!--v-b-modal.login-modal-->Book Your Event Today!</a>
           </li>
           <!--
           <li class="nav-item">

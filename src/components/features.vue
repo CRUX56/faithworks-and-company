@@ -36,7 +36,7 @@ export default {
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="mb-4 mb-lg-0">
-              <img src="@/assets/images/features-img.png" alt class="img-fluid d-block mx-auto" />
+              <img src="@/assets/images/about-image.jpg" alt class="img-fluid d-block mx-auto" />
             </div>
           </div>
 

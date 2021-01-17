@@ -28,6 +28,7 @@
         }
     }
     .navbar-nav {
+        background-color: $white;
         li {
             a {
                 line-height: 26px;
@@ -75,7 +76,7 @@
     font-size: 24px;
     margin-top: 5px;
     margin-bottom: 0px;
-    color: $white;
+    color: $primary;
 }
 
 .nav .open>a,
