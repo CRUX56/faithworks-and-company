@@ -55,7 +55,7 @@ export default {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6">
-              <h1 class="hero-1-title text-green-mid font-weight-bold text-shadow mb-4">
+              <h1 class="hero-1-title text-primary font-weight-bold text-shadow mb-4">
                 Greetings in the name of our Lord and Saviour, Jesus Christ.
               </h1>
               <div class="w-75 mb-5 mb-lg-0">
