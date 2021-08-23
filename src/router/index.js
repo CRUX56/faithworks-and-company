@@ -38,6 +38,11 @@ const routes = [
     name: 'Index-6',
     component: () => import('../views/index6.vue')
   },
+  {
+    path: '/book-release',
+    name: 'Book-release',
+    component: () => import('../views/embracing-singleness-book-release.vue')
+  }
   /*{
     path: '/mailer',
     name: 'mailer',

@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <div class="text-center mb-5">
                         <h3 class="title mb-3">
-                            About CEO:
+                            About CEO
                         </h3>
                         <p class="font-size-15">
                             <em>"Now faith is the substance of things hoped for, the evidence of things not seen.”</em> <br/>~Hebrews 11:1 (KJV)~

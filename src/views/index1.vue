@@ -66,7 +66,7 @@ export default {
                   In order to be deeply rooted in faith, you must be willing to be like a tree planted by the rivers of water with deep planted roots that will stand tall and withstand anything that comes your way. We hope you find these resources useful as you strengthen your faith-walk relationship with God.
                 </p>
                 <p class="mb-3">
-                  <em>"But without faith it is impossible to please Him; for he that cometh to God must believe that He is, and that He is a rewarder of them that diligently seek Him."</em> ~Hebrews 11:6 (KJV)~
+                  <em>"But without faith it is impossible to please Him; for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek Him."</em> ~Hebrews 11:6 (KJV)~
                 </p>
                 <div class="subscribe-form">
                   <form action="https://formspree.io/f/mrgorbno" method="POST" name="email-address-form" id="email-address-form">

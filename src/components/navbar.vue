@@ -101,13 +101,17 @@ export default {
           </li>
         </ul>
         <ul class="navbar-nav navbar-center">
-          <li class="nav-item">
-            <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl?pli=1" target="_blank" class="nav-link"><!--v-b-modal.login-modal-->Book Your Event Today!</a>
-          </li>
           <!--
           <li class="nav-item">
-            <a href="javascript: void(0);" class="nav-link" v-b-modal.register-modal>Register</a>
+            <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl?pli=1" target="_blank" class="nav-link"><!--v-b-modal.login-modalBook Your Event Today!</a>
           </li>-->
+          <!--<li class="nav-item">
+            <a href="javascript: void(0);" class="nav-link" v-b-modal.register-modal>Book Available Now</a>
+          </li>-->
+          <li class="nav-item">
+            <!--<a href="javascript: void(0);" v-link="{name: 'Book-release'}" class="nav-link">Book Available Now</a>-->
+            <a href="javascript : void(0)" class="nav-link"><router-link :to="{ name: 'Book-release' }">Book Available Now</router-link></a>
+          </li>
         </ul>
       </div>
     </div>
