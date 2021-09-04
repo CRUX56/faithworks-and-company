@@ -35,7 +35,7 @@ export default {
       } else {
         navbar.classList.remove("nav-sticky");
       }
-    }
+    };
   },
   methods: {
     /**
@@ -43,7 +43,7 @@ export default {
      */
     toggleMenu() {
       document.getElementById("navbarCollapse").classList.toggle("show");
-    }
+    },
   }
 };
 </script>
@@ -72,31 +72,33 @@ export default {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mx-auto navbar-center" id="mySidenav" v-scroll-spy-active>
           <li class="nav-item">
-            <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">Home</a>
+            <a href="javascript: void(0);" v-scroll-to="'#home'" class="nav-link">
+              <router-link :to="{ name: 'home'}">Home</router-link>
+            </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el: '#about', offset: -2}" class="nav-link">
-              About the CEO
+              <router-link :to="{ name: 'home'}">About the CEO</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#features', offset: -2}" class="nav-link">
-              Company
+              <router-link :to="{ name: 'home'}">Company</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el: '#services', offset: -2}" class="nav-link">
-              Specialty Services
+              <router-link :to="{ name: 'home'}">Services</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#testimonials', offset: -1}" class="nav-link">
-              Testimonials
+              <router-link :to="{ name: 'home'}">Testimonials</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#contact', offset:-50}" class="nav-link">
-              Contact Us
+              <router-link :to="{ name: 'home'}">Contact Us</router-link>
             </a>
           </li>
         </ul>
@@ -110,7 +112,9 @@ export default {
           </li>-->
           <li class="nav-item">
             <!--<a href="javascript: void(0);" v-link="{name: 'Book-release'}" class="nav-link">Book Available Now</a>-->
-            <a href="javascript : void(0)" class="nav-link"><router-link :to="{ name: 'Book-release' }">Book Available Now</router-link></a>
+            <a href="javascript : void(0)" class="nav-link">
+              <router-link :to="{ name: 'Book-release' }">Book Available Now</router-link>
+            </a>
           </li>
         </ul>
       </div>
