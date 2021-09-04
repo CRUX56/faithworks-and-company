@@ -10,39 +10,9 @@ const routes = [
     component: () => import('../views/index1.vue')
   },
   {
-    path: '/index-1',
-    name: 'Index-1',
-    component: () => import('../views/index1.vue')
-  },
-  {
-    path: '/index-2',
-    name: 'Index-2',
-    component: () => import('../views/index2.vue')
-  },
-  {
-    path: '/index-3',
-    name: 'Index-3',
-    component: () => import('../views/index3.vue')
-  },
-  {
-    path: '/index-4',
-    name: 'Index-4',
-    component: () => import('../views/index4.vue')
-  },
-  {
-    path: '/index-5',
-    name: 'Index-5',
-    component: () => import('../views/index5.vue')
-  },
-  {
-    path: '/index-6',
-    name: 'Index-6',
-    component: () => import('../views/index6.vue')
-  },
-  {
     path: '/book-release',
     name: 'Book-release',
-    component: () => import('../views/embracing-singleness-book-release.vue')
+    component: () => import('../components/book-release.vue')
   }
   /*{
     path: '/mailer',
@@ -54,7 +24,14 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior: function(to, from, savedPosition) {
+    if(to.hash){
+      return {selector: to.hash};
+    } else {
+      return {x: 0, y: 0};
+    }
+  },
 })
 
 export default router

@@ -21,6 +21,11 @@ export default {
     LinkedinIcon,
     ArrowRightCircleIcon
   },
+  data: function() {
+    return {
+      hash: this.$route.hash,
+    }
+  },
   mounted: () => {
     window.onscroll = function() {
       onwindowScroll();
@@ -78,30 +83,31 @@ export default {
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el: '#about', offset: -2}" class="nav-link">
-              <router-link :to="{ name: 'home'}">About the CEO</router-link>
+              <router-link :to="{ name: 'home', hash: '#about'}">About the CEO</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#features', offset: -2}" class="nav-link">
-              <router-link :to="{ name: 'home'}">Company</router-link>
+              <router-link :to="{ name: 'home', hash: '#features'}">Company</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el: '#services', offset: -2}" class="nav-link">
-              <router-link :to="{ name: 'home'}">Services</router-link>
+              <router-link :to="{ name: 'home', hash: '#services'}">Services</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#testimonials', offset: -1}" class="nav-link">
-              <router-link :to="{ name: 'home'}">Testimonials</router-link>
+              <router-link :to="{ name: 'home', hash: '#testimonials'}">Testimonials</router-link>
             </a>
           </li>
           <li class="nav-item">
             <a href="javascript: void(0);" v-scroll-to="{ el:'#contact', offset:-50}" class="nav-link">
-              <router-link :to="{ name: 'home'}">Contact Us</router-link>
+              <router-link :to="{ name: 'home', hash: '#contact'}">Contact Us</router-link>
             </a>
           </li>
         </ul>
+        
         <ul class="navbar-nav navbar-center">
           <!--
           <li class="nav-item">
